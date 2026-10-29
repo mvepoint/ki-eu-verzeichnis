@@ -1,0 +1,9 @@
+_research/
+screenshots/
+*.bak
+*.bak.*
+*.bak.py
+*~
+__pycache__/
+.DS_Store
+README_DE.md

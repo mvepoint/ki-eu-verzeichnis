@@ -1,0 +1,488 @@
+{
+  "geprueft": "2026-10-29",
+  "ergebnisse": [
+    {
+      "tool": "langdock",
+      "url": "https://langdock.com/de",
+      "status": "200",
+      "final": "https://langdock.com/de",
+      "ok": true
+    },
+    {
+      "tool": "langdock",
+      "url": "https://langdock.com/de/security",
+      "status": "200",
+      "final": "https://langdock.com/de/security",
+      "ok": true
+    },
+    {
+      "tool": "langdock",
+      "url": "https://langdock.com/de/pricing",
+      "status": "200",
+      "final": "https://langdock.com/de/pricing",
+      "ok": true
+    },
+    {
+      "tool": "nele-ai",
+      "url": "https://www.nele.ai/de",
+      "status": "200",
+      "final": "https://www.nele.ai/de",
+      "ok": true
+    },
+    {
+      "tool": "nele-ai",
+      "url": "https://www.nele.ai/de",
+      "status": "200",
+      "final": "https://www.nele.ai/de",
+      "ok": true
+    },
+    {
+      "tool": "nele-ai",
+      "url": "https://www.nele.ai/de/ki-preise",
+      "status": "200",
+      "final": "https://www.nele.ai/de/ki-preise",
+      "ok": true
+    },
+    {
+      "tool": "nele-ai",
+      "url": "https://www.nele.ai/de/ki-datenschutz",
+      "status": "200",
+      "final": "https://www.nele.ai/de/ki-datenschutz",
+      "ok": true
+    },
+    {
+      "tool": "meingpt",
+      "url": "https://meingpt.com/",
+      "status": "200",
+      "final": "https://meingpt.com/",
+      "ok": true
+    },
+    {
+      "tool": "meingpt",
+      "url": "https://meingpt.com/",
+      "status": "200",
+      "final": "https://meingpt.com/",
+      "ok": true
+    },
+    {
+      "tool": "meingpt",
+      "url": "https://meingpt.com/preise",
+      "status": "200",
+      "final": "https://meingpt.com/preise",
+      "ok": true
+    },
+    {
+      "tool": "mistral-vibe",
+      "url": "https://mistral.ai/pricing",
+      "status": "200",
+      "final": "https://mistral.ai/pricing/",
+      "ok": true
+    },
+    {
+      "tool": "mistral-vibe",
+      "url": "https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data",
+      "status": "200",
+      "final": "https://help.mistral.ai/en/articles/347629-where-do-you-store-my-data-or-my-organization-s-data",
+      "ok": true
+    },
+    {
+      "tool": "mistral-vibe",
+      "url": "https://mistral.ai/pricing",
+      "status": "200",
+      "final": "https://mistral.ai/pricing/",
+      "ok": true
+    },
+    {
+      "tool": "kamium",
+      "url": "https://www.kamium.de/",
+      "status": "200",
+      "final": "https://www.kamium.de/",
+      "ok": true
+    },
+    {
+      "tool": "kamium",
+      "url": "https://www.kamium.de/",
+      "status": "200",
+      "final": "https://www.kamium.de/",
+      "ok": true
+    },
+    {
+      "tool": "kamium",
+      "url": "https://www.kamium.de/preise",
+      "status": "200",
+      "final": "https://www.kamium.de/preise",
+      "ok": true
+    },
+    {
+      "tool": "euhub-ai",
+      "url": "https://euhub.ai/",
+      "status": "200",
+      "final": "https://euhub.ai/",
+      "ok": true
+    },
+    {
+      "tool": "euhub-ai",
+      "url": "https://euhub.ai/",
+      "status": "200",
+      "final": "https://euhub.ai/",
+      "ok": true
+    },
+    {
+      "tool": "sovrgpt",
+      "url": "https://sovrgpt.com/",
+      "status": "200",
+      "final": "https://sovrgpt.com/",
+      "ok": true
+    },
+    {
+      "tool": "sovrgpt",
+      "url": "https://sovrgpt.com/",
+      "status": "200",
+      "final": "https://sovrgpt.com/",
+      "ok": true
+    },
+    {
+      "tool": "jamie",
+      "url": "https://www.meetjamie.ai/",
+      "status": "200",
+      "final": "https://www.meetjamie.ai/",
+      "ok": true
+    },
+    {
+      "tool": "jamie",
+      "url": "https://www.meetjamie.ai/de",
+      "status": "200",
+      "final": "https://www.meetjamie.ai/",
+      "ok": true
+    },
+    {
+      "tool": "jamie",
+      "url": "https://www.meetjamie.ai/pricing",
+      "status": "200",
+      "final": "https://www.meetjamie.ai/pricing",
+      "ok": true
+    },
+    {
+      "tool": "tldv",
+      "url": "https://tldv.io/de/",
+      "status": "200",
+      "final": "https://tldv.io/de/",
+      "ok": true
+    },
+    {
+      "tool": "tldv",
+      "url": "https://tldv.io/de/",
+      "status": "200",
+      "final": "https://tldv.io/de/",
+      "ok": true
+    },
+    {
+      "tool": "amberscript",
+      "url": "https://www.amberscript.com/de/",
+      "status": "200",
+      "final": "https://www.amberscript.com/de/",
+      "ok": true
+    },
+    {
+      "tool": "amberscript",
+      "url": "https://www.amberscript.com/de/",
+      "status": "200",
+      "final": "https://www.amberscript.com/de/",
+      "ok": true
+    },
+    {
+      "tool": "amberscript",
+      "url": "https://www.amberscript.com/de/preise/",
+      "status": "200",
+      "final": "https://www.amberscript.com/de/preise/",
+      "ok": true
+    },
+    {
+      "tool": "happy-scribe",
+      "url": "https://www.happyscribe.com/de",
+      "status": "200",
+      "final": "https://www.happyscribe.com/de",
+      "ok": true
+    },
+    {
+      "tool": "happy-scribe",
+      "url": "https://www.happyscribe.com/de",
+      "status": "200",
+      "final": "https://www.happyscribe.com/de",
+      "ok": true
+    },
+    {
+      "tool": "happy-scribe",
+      "url": "https://www.happyscribe.com/de/preise",
+      "status": "200",
+      "final": "https://www.happyscribe.com/de/preise",
+      "ok": true
+    },
+    {
+      "tool": "noota",
+      "url": "https://www.noota.io/de",
+      "status": "200",
+      "final": "https://www.noota.io/de",
+      "ok": true
+    },
+    {
+      "tool": "noota",
+      "url": "https://www.noota.io/de",
+      "status": "200",
+      "final": "https://www.noota.io/de",
+      "ok": true
+    },
+    {
+      "tool": "noota",
+      "url": "https://www.noota.io/de/pricing",
+      "status": "200",
+      "final": "https://www.noota.io/de/pricing",
+      "ok": true
+    },
+    {
+      "tool": "leexi",
+      "url": "https://www.leexi.ai/de/",
+      "status": "200",
+      "final": "https://www.leexi.ai/de/",
+      "ok": true
+    },
+    {
+      "tool": "leexi",
+      "url": "https://www.leexi.ai/de/",
+      "status": "200",
+      "final": "https://www.leexi.ai/de/",
+      "ok": true
+    },
+    {
+      "tool": "leexi",
+      "url": "https://www.leexi.ai/de/preise/",
+      "status": "200",
+      "final": "https://www.leexi.ai/de/preise/",
+      "ok": true
+    },
+    {
+      "tool": "f4-transkription",
+      "url": "https://www.audiotranskription.de/f4/automatische-transkription/",
+      "status": "200",
+      "final": "https://www.audiotranskription.de/f4/automatische-transkription/",
+      "ok": true
+    },
+    {
+      "tool": "f4-transkription",
+      "url": "https://www.audiotranskription.de/f4/automatische-transkription/",
+      "status": "200",
+      "final": "https://www.audiotranskription.de/f4/automatische-transkription/",
+      "ok": true
+    },
+    {
+      "tool": "tucan-ai",
+      "url": "https://www.tucan.ai/de/",
+      "status": "200",
+      "final": "https://www.tucan.ai/de/",
+      "ok": true
+    },
+    {
+      "tool": "tucan-ai",
+      "url": "https://www.tucan.ai/de/",
+      "status": "200",
+      "final": "https://www.tucan.ai/de/",
+      "ok": true
+    },
+    {
+      "tool": "sally",
+      "url": "https://www.sally.io/de",
+      "status": "200",
+      "final": "https://www.sally.io/de",
+      "ok": true
+    },
+    {
+      "tool": "sally",
+      "url": "https://www.sally.io/de",
+      "status": "200",
+      "final": "https://www.sally.io/de",
+      "ok": true
+    },
+    {
+      "tool": "deepl",
+      "url": "https://www.deepl.com/de/pro",
+      "status": "200",
+      "final": "https://www.deepl.com/de/pro",
+      "ok": true
+    },
+    {
+      "tool": "deepl",
+      "url": "https://www.deepl.com/de/privacy",
+      "status": "200",
+      "final": "https://www.deepl.com/de/privacy",
+      "ok": true
+    },
+    {
+      "tool": "deepl",
+      "url": "https://www.deepl.com/de/pro",
+      "status": "200",
+      "final": "https://www.deepl.com/de/pro",
+      "ok": true
+    },
+    {
+      "tool": "neuroflash",
+      "url": "https://neuroflash.com/de/",
+      "status": "200",
+      "final": "https://neuroflash.com/de/",
+      "ok": true
+    },
+    {
+      "tool": "neuroflash",
+      "url": "https://neuroflash.com/de/preisplaene/",
+      "status": "200",
+      "final": "https://neuroflash.com/de/preisplaene/",
+      "ok": true
+    },
+    {
+      "tool": "typetone",
+      "url": "https://www.typetone.ai/de",
+      "status": "200",
+      "final": "https://www.typetone.ai/de",
+      "ok": true
+    },
+    {
+      "tool": "typetone",
+      "url": "https://www.typetone.ai/de",
+      "status": "200",
+      "final": "https://www.typetone.ai/de",
+      "ok": true
+    },
+    {
+      "tool": "moin-ai",
+      "url": "https://www.moin.ai/",
+      "status": "200",
+      "final": "https://www.moin.ai/",
+      "ok": true
+    },
+    {
+      "tool": "moin-ai",
+      "url": "https://www.moin.ai/preise",
+      "status": "200",
+      "final": "https://www.moin.ai/preise",
+      "ok": true
+    },
+    {
+      "tool": "lime-connect",
+      "url": "https://connect.lime-technologies.com/de/",
+      "status": "200",
+      "final": "https://connect.lime-technologies.com/de/",
+      "ok": true
+    },
+    {
+      "tool": "lime-connect",
+      "url": "https://connect.lime-technologies.com/de/",
+      "status": "200",
+      "final": "https://connect.lime-technologies.com/de/",
+      "ok": true
+    },
+    {
+      "tool": "onlim",
+      "url": "https://onlim.com/",
+      "status": "200",
+      "final": "https://onlim.com/",
+      "ok": true
+    },
+    {
+      "tool": "onlim",
+      "url": "https://onlim.com/",
+      "status": "200",
+      "final": "https://onlim.com/",
+      "ok": true
+    },
+    {
+      "tool": "ionos-ai-model-hub",
+      "url": "https://cloud.ionos.de/managed/ai-model-hub",
+      "status": "200",
+      "final": "https://cloud.ionos.de/managed/ai-model-hub",
+      "ok": true
+    },
+    {
+      "tool": "ionos-ai-model-hub",
+      "url": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
+      "status": "200",
+      "final": "https://docs.ionos.com/cloud/ai/ai-model-hub/governance-and-compliance/data-handling",
+      "ok": true
+    },
+    {
+      "tool": "ionos-ai-model-hub",
+      "url": "https://cloud.ionos.de/managed/ai-model-hub",
+      "status": "200",
+      "final": "https://cloud.ionos.de/managed/ai-model-hub",
+      "ok": true
+    },
+    {
+      "tool": "stackit-ai-model-serving",
+      "url": "https://stackit.com/de/produkte/data-ai/stackit-ai-model-serving",
+      "status": "200",
+      "final": "https://stackit.com/de/produkte/data-ai/stackit-ai-model-serving",
+      "ok": true
+    },
+    {
+      "tool": "stackit-ai-model-serving",
+      "url": "https://stackit.com/de/produkte/data-ai/stackit-ai-model-serving",
+      "status": "200",
+      "final": "https://stackit.com/de/produkte/data-ai/stackit-ai-model-serving",
+      "ok": true
+    },
+    {
+      "tool": "stackit-ai-model-serving",
+      "url": "https://stackit.com/de",
+      "status": "200",
+      "final": "https://stackit.com/de",
+      "ok": true
+    },
+    {
+      "tool": "scaleway-generative-apis",
+      "url": "https://www.scaleway.com/en/generative-apis/",
+      "status": "200",
+      "final": "https://www.scaleway.com/en/generative-apis/",
+      "ok": true
+    },
+    {
+      "tool": "scaleway-generative-apis",
+      "url": "https://www.scaleway.com/en/generative-apis/",
+      "status": "200",
+      "final": "https://www.scaleway.com/en/generative-apis/",
+      "ok": true
+    },
+    {
+      "tool": "scaleway-generative-apis",
+      "url": "https://www.scaleway.com/en/pricing/model-as-a-service/",
+      "status": "200",
+      "final": "https://www.scaleway.com/en/pricing/model-as-a-service/",
+      "ok": true
+    },
+    {
+      "tool": "ovhcloud-ai-endpoints",
+      "url": "https://www.ovhcloud.com/de/public-cloud/ai-endpoints/",
+      "status": "200",
+      "final": "https://www.ovhcloud.com/de/public-cloud/ai-endpoints/",
+      "ok": true
+    },
+    {
+      "tool": "ovhcloud-ai-endpoints",
+      "url": "https://www.ovhcloud.com/de/public-cloud/ai-endpoints/",
+      "status": "200",
+      "final": "https://www.ovhcloud.com/de/public-cloud/ai-endpoints/",
+      "ok": true
+    },
+    {
+      "tool": "nextcloud-assistant",
+      "url": "https://nextcloud.com/de/assistant/",
+      "status": "200",
+      "final": "https://nextcloud.com/de/assistant/",
+      "ok": true
+    },
+    {
+      "tool": "nextcloud-assistant",
+      "url": "https://nextcloud.com/de/assistant/",
+      "status": "200",
+      "final": "https://nextcloud.com/de/assistant/",
+      "ok": true
+    }
+  ]
+}

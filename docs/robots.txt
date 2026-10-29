@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mvepoint.github.io/ki-eu-verzeichnis/sitemap.xml
