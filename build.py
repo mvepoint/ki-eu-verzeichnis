@@ -30,7 +30,8 @@ def page(path, title, desc, body, depth, jsonld=None, noindex=False):
 <p class="disc"><strong>Hinweis:</strong> {e(D['hinweis'])} Angaben können sich ändern – maßgeblich sind die verlinkten Anbieterseiten. Keine Rechtsberatung.</p>
 <p><a href="{r}methodik/">Methodik</a> · <a href="{r}tool-eintragen/">Tool eintragen</a> · <a href="{r}#newsletter">Newsletter</a> · <a href="{r}impressum/">Impressum</a> · <a href="{r}datenschutz/">Datenschutz</a> · <a href="https://tally.so/r/VpprVl" rel="noopener" target="_blank">Kontakt</a></p>
 <p class="muted">Datenstand: {de_date(STAND)}</p></div></footer>
-<script src="{r}assets/app.js" defer></script></body></html>"""
+<script src="{r}assets/app.js" defer></script>
+<script data-goatcounter="https://ki-eu-verzeichnis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>"""
     fp = os.path.join(OUT, path, "index.html") if not path.endswith(".html") else os.path.join(OUT, path)
     os.makedirs(os.path.dirname(fp), exist_ok=True)
     open(fp, "w", encoding="utf-8").write(doc)
@@ -82,30 +83,35 @@ DATENSCHUTZ = """<h1>Datenschutzerklärung</h1>
 <p>Verantwortlich für die Datenverarbeitung auf dieser Website im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
 <p>Maximilian van Elst<br>Gerhart-Hauptmann-Ring 58<br>81737 München<br>Deutschland<br>E-Mail: <a href="mailto:mvepoint@gmail.com">mvepoint@gmail.com</a></p>
 <h2>2. Überblick</h2>
-<p>Diese Website ist ein statisches Verzeichnis. Sie setzt <strong>keine Cookies</strong>, verwendet <strong>keine Analyse- oder Tracking-Werkzeuge</strong>, bindet <strong>keine externen Schriftarten, Skripte oder Inhalte Dritter</strong> ein und speichert keine Daten im Browser. Das kleine Skript für Suche und Filter läuft ausschließlich lokal in Ihrem Browser und sendet keine Daten. Es gibt derzeit kein Benutzerkonto, keine Kommentarfunktion, kein aktives Newsletter-Formular und kein aktives Formular zum Eintragen von Tools. Das Kontaktformular (Abschnitt 5) ist nicht in diese Website eingebettet, sondern nur verlinkt; erst wenn Sie den Link anklicken, wird eine Seite des Formulardienstes Tally geladen.</p>
+<p>Diese Website ist ein statisches Verzeichnis. Sie setzt <strong>keine Cookies</strong>, bindet <strong>keine externen Schriftarten oder eingebetteten Inhalte Dritter</strong> ein und speichert keine Daten in Ihrem Browser. Einzige externe Komponente ist das Skript des cookielosen Reichweitenmessdienstes GoatCounter (Abschnitt 4), mit dem wir anonyme, zusammengefasste Besucherzahlen erheben. Das kleine Skript für Suche und Filter läuft ausschließlich lokal in Ihrem Browser und sendet keine Daten. Es gibt derzeit kein Benutzerkonto, keine Kommentarfunktion, kein aktives Newsletter-Formular und kein aktives Formular zum Eintragen von Tools. Das Kontaktformular (Abschnitt 6) ist nicht in diese Website eingebettet, sondern nur verlinkt; erst wenn Sie den Link anklicken, wird eine Seite des Formulardienstes Tally geladen.</p>
 <h2>3. Hosting durch GitHub Pages und Server-Logfiles</h2>
 <p>Diese Website wird über den Dienst GitHub Pages bereitgestellt. Anbieter ist die GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA (in der EU: GitHub B.V., Prins Bernhardplein 200, 1097 JB Amsterdam, Niederlande).</p>
 <p>Beim Aufruf der Website werden durch GitHub technisch notwendige Daten verarbeitet, insbesondere Ihre IP-Adresse, Datum und Uhrzeit des Zugriffs, die aufgerufene Seite sowie Angaben zu Browser und Betriebssystem (Server-Logfiles). GitHub gibt an, dass die IP-Adresse von Besuchern einer GitHub-Pages-Website aus Sicherheitsgründen protokolliert und gespeichert wird. Wir selbst haben keinen Zugriff auf diese Logfiles und führen keine eigene Auswertung durch.</p>
 <p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt in der sicheren, stabilen und kostengünstigen Bereitstellung der Website.</p>
 <p>Dabei können Daten in die USA übermittelt werden. GitHub ist nach eigenen Angaben unter dem EU-US Data Privacy Framework zertifiziert, für das ein Angemessenheitsbeschluss der EU-Kommission besteht (Art. 45 DSGVO). Weitere Informationen: <a href="https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener" target="_blank">Datenschutzerklärung von GitHub</a>.</p>
-<h2>4. Kontakt per E-Mail</h2>
+<h2>4. Reichweitenmessung mit GoatCounter</h2>
+<p>Um zu erfahren, wie viele Besucher die Website hat und welche Seiten aufgerufen werden, nutzen wir den Dienst GoatCounter (goatcounter.com). GoatCounter wird nach eigenen Angaben von Martin Tournoij mit Sitz in Irland betrieben; die Daten werden auf Servern der Hetzner Online GmbH in Finnland und Deutschland gespeichert. Das Zählskript wird von der Adresse gc.zgo.at über ein Content-Delivery-Network (BunnyCDN) geladen; dabei wird, wie bei jedem Abruf einer Datei, technisch Ihre IP-Adresse verarbeitet.</p>
+<p>GoatCounter setzt <strong>keine Cookies</strong> und speichert nach eigenen Angaben auch sonst nichts in Ihrem Browser (kein localStorage, kein Cache o. Ä.). Beim Seitenaufruf werden die aufgerufene Seite, die verweisende Seite (Referrer), Browser und Betriebssystem, Bildschirmbreite, Sprache sowie das aus der IP-Adresse abgeleitete Land übermittelt. Gespeichert werden nach Angaben von GoatCounter nur zusammengefasste Zählwerte je Stunde bzw. Tag (z. B. „Seite X: 4 Aufrufe mit Firefox“), die nicht miteinander verknüpft werden können. <strong>IP-Adressen, der vollständige User-Agent und Tracking-Kennungen werden nicht gespeichert.</strong> Um wiederholte Aufrufe nicht mehrfach zu zählen, hält GoatCounter eine Zuordnung aus Website, IP-Adresse und User-Agent zu einer zufälligen Kennung für höchstens acht Stunden ausschließlich im Arbeitsspeicher; sie wird nicht in der Datenbank abgelegt. Eine Weitergabe an Dritte findet nach Angaben von GoatCounter nicht statt. Wir erhalten nur die zusammengefassten Statistiken; ein Rückschluss auf einzelne Personen ist uns nicht möglich.</p>
+<p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse liegt darin, die Reichweite und Nutzung des Verzeichnisses in anonymer, datensparsamer Form zu messen, um das Angebot zu verbessern. Sie können der Verarbeitung widersprechen (Art. 21 DSGVO), etwa indem Sie die Ausführung von JavaScript für gc.zgo.at in Ihrem Browser bzw. mit einem Inhaltsblocker unterbinden; die Website bleibt dabei voll nutzbar.</p>
+<p>Weitere Informationen: <a href="https://www.goatcounter.com/help/privacy" rel="noopener" target="_blank">Datenschutzerklärung von GoatCounter</a> und <a href="https://www.goatcounter.com/help/gdpr" rel="noopener" target="_blank">GoatCounter zur DSGVO</a>.</p>
+<h2>5. Kontakt per E-Mail</h2>
 <p>Wenn Sie uns per E-Mail kontaktieren (z. B. um ein Tool vorzuschlagen oder eine Angabe zu korrigieren), verarbeiten wir Ihre E-Mail-Adresse, Ihren Namen (falls angegeben) und den Inhalt Ihrer Nachricht, um Ihre Anfrage zu bearbeiten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf einen Vertrag oder vorvertragliche Maßnahmen zielt, ansonsten Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen). Wir löschen die Daten, sobald die Anfrage abschließend bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
 <p>Für das E-Mail-Postfach nutzen wir den Dienst Gmail der Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland. Dabei kann eine Übermittlung in die USA nicht ausgeschlossen werden; Google ist nach eigenen Angaben unter dem EU-US Data Privacy Framework zertifiziert.</p>
-<h2>5. Kontaktformular (Tally)</h2>
+<h2>6. Kontaktformular (Tally)</h2>
 <p>Für Anfragen bieten wir ein Kontaktformular an, das über den Formulardienst Tally bereitgestellt wird: <a href="https://tally.so/r/VpprVl" rel="noopener" target="_blank">https://tally.so/r/VpprVl</a>. Anbieter ist die Tally BV, Sint-Pietersnieuwstraat 11, 9000 Gent, Belgien. Das Formular ist nicht in diese Website eingebettet; es öffnet sich auf einer Seite von Tally (tally.so), sobald Sie den Link anklicken.</p>
-<p>Wenn Sie das Formular nutzen, verarbeiten wir Ihren Namen (freiwillige Angabe), Ihre E-Mail-Adresse, den Inhalt Ihrer Nachricht sowie Ihre Bestätigung der Einwilligungs-Checkbox, um Ihre Anfrage zu beantworten. Beim Aufruf der Formularseite verarbeitet Tally zudem technisch notwendige Daten wie Ihre IP-Adresse und Browserangaben. Über neue Einsendungen werden wir per E-Mail benachrichtigt; dabei gelangt der Inhalt Ihrer Nachricht in unser E-Mail-Postfach (siehe Abschnitt 4).</p>
+<p>Wenn Sie das Formular nutzen, verarbeiten wir Ihren Namen (freiwillige Angabe), Ihre E-Mail-Adresse, den Inhalt Ihrer Nachricht sowie Ihre Bestätigung der Einwilligungs-Checkbox, um Ihre Anfrage zu beantworten. Beim Aufruf der Formularseite verarbeitet Tally zudem technisch notwendige Daten wie Ihre IP-Adresse und Browserangaben. Über neue Einsendungen werden wir per E-Mail benachrichtigt; dabei gelangt der Inhalt Ihrer Nachricht in unser E-Mail-Postfach (siehe Abschnitt 5).</p>
 <p>Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage auf einen Vertrag oder vorvertragliche Maßnahmen zielt, ansonsten Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung von Anfragen). Tally verarbeitet die Formulardaten als Auftragsverarbeiter in unserem Auftrag; nach eigenen Angaben werden die Formulardaten verschlüsselt und in Europa gespeichert. Tally setzt dafür weitere Dienstleister (Unterauftragsverarbeiter) ein, z. B. für Hosting und den Versand von E-Mail-Benachrichtigungen; dabei kann eine Übermittlung in Drittländer wie die USA nicht ausgeschlossen werden. Wir löschen die Einsendungen, sobald die Anfrage abschließend bearbeitet ist und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.</p>
 <p>Weitere Informationen: <a href="https://tally.so/help/privacy-policy" rel="noopener" target="_blank">Datenschutzerklärung von Tally</a> und <a href="https://tally.so/help/gdpr" rel="noopener" target="_blank">Tally zu DSGVO und Unterauftragsverarbeitern</a>.</p>
-<h2>6. Newsletter</h2>
+<h2>7. Newsletter</h2>
 <p>Ein Newsletter ist geplant, derzeit aber nicht aktiv; es werden keine Anmeldedaten erhoben. Vor dem Start des Newsletters wird diese Datenschutzerklärung um die entsprechenden Angaben (Versanddienstleister, Double-Opt-In, Rechtsgrundlage, Abmeldung) ergänzt.</p>
-<h2>7. Links auf andere Websites</h2>
+<h2>8. Links auf andere Websites</h2>
 <p>Das Verzeichnis enthält Links zu Websites der gelisteten Anbieter. Beim Anklicken eines Links verlassen Sie unsere Website; für die Datenverarbeitung auf der Zielseite ist deren Betreiber verantwortlich. Vor dem Anklicken werden keine Daten an diese Anbieter übermittelt.</p>
-<h2>8. Ihre Rechte</h2>
+<h2>9. Ihre Rechte</h2>
 <p>Sie haben nach der DSGVO das Recht auf Auskunft (Art. 15), Berichtigung (Art. 16), Löschung (Art. 17), Einschränkung der Verarbeitung (Art. 18), Datenübertragbarkeit (Art. 20) sowie das Recht, einer Verarbeitung auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO aus Gründen, die sich aus Ihrer besonderen Situation ergeben, zu <strong>widersprechen</strong> (Art. 21). Wenden Sie sich dazu formlos an die oben genannte E-Mail-Adresse.</p>
 <p>Sie haben außerdem das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). Zuständig für uns ist das Bayerische Landesamt für Datenschutzaufsicht (BayLDA), Promenade 18, 91522 Ansbach, <a href="https://www.lda.bayern.de" rel="noopener" target="_blank">www.lda.bayern.de</a>.</p>
-<h2>9. Keine automatisierte Entscheidungsfindung</h2>
+<h2>10. Keine automatisierte Entscheidungsfindung</h2>
 <p>Eine automatisierte Entscheidungsfindung einschließlich Profiling findet nicht statt.</p>
-<h2>10. Änderungen</h2>
+<h2>11. Änderungen</h2>
 <p>Wir passen diese Datenschutzerklärung an, sobald sich die Website oder die eingesetzten Dienste ändern, insbesondere vor dem Start des Newsletters oder eines Eintragsformulars.</p>"""
 
 
@@ -120,6 +126,8 @@ def build():
     shutil.copy("assets/app.js", OUT + "/assets/app.js")
     open(OUT + "/.nojekyll", "w").close()
     shutil.copy("data/tools.json", OUT + "/tools.json")
+    # Unveränderte Dateien (z. B. Google-Search-Console-Verifizierung) 1:1 übernehmen
+    for f in sorted(os.listdir("static")): shutil.copy(os.path.join("static", f), os.path.join(OUT, f))
     urls = [""]
     # Startseite
     tiles = "".join(f'<a class="tile" href="kategorie/{c["slug"]}/"><h3>{e(c["name"])}</h3><p>{e(c["intro"])}</p><span class="count">{sum(t["kategorie"]==c["slug"] for t in TOOLS)} Tools</span></a>' for c in D["kategorien"])
@@ -201,7 +209,7 @@ def build():
 <li>Sponsoren werden klar gekennzeichnet und haben keinen Einfluss auf die Angaben.</li></ul><p>Datenstand: {de_date(STAND)}</p>"""
     page("methodik/", f"Methodik – {SITE}", "Wie das Verzeichnis Angaben zu EU-Hosting, AVV und Preisen erhebt.", body, 1); urls.append("methodik/")
     page("impressum/", f"Impressum – {SITE}", "Impressum und Anbieterkennzeichnung des KI-EU-Verzeichnisses.", IMPRESSUM, 1, noindex=True)
-    page("datenschutz/", f"Datenschutzerklärung – {SITE}", "Datenschutzerklärung des KI-EU-Verzeichnisses: Hosting über GitHub Pages, keine Cookies, kein Tracking.", DATENSCHUTZ.replace("{stand}", de_date(STAND)), 1, noindex=True)
+    page("datenschutz/", f"Datenschutzerklärung – {SITE}", "Datenschutzerklärung des KI-EU-Verzeichnisses: Hosting über GitHub Pages, cookielose Reichweitenmessung mit GoatCounter, keine Cookies.", DATENSCHUTZ.replace("{stand}", de_date(STAND)), 1, noindex=True)
     page("404.html", f"Seite nicht gefunden – {SITE}", "Seite nicht gefunden", '<h1>Seite nicht gefunden</h1><p><a href="/ki-eu-verzeichnis/">Zur Startseite</a></p>', 0, noindex=True)
     # 404 nutzt relative Pfade ab Root-Tiefe 0; für GitHub-Pages-Unterpfad Basis setzen
     import re
