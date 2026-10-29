@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Statischer Generator: data/tools.json -> docs/ (GitHub Pages: Branch main, Ordner /docs)."""
 import json, os, shutil, html, datetime
+import guides
 BASE = "https://mvepoint.github.io/ki-eu-verzeichnis/"  # TODO Max: echte Basis-URL/Domain eintragen
 SITE = "KI-EU-Verzeichnis"
 OUT = "docs"
@@ -28,7 +29,7 @@ def page(path, title, desc, body, depth, jsonld=None, noindex=False):
 <main id="main" class="wrap">{body}</main>
 <footer class="foot"><div class="wrap">
 <p class="disc"><strong>Hinweis:</strong> {e(D['hinweis'])} Angaben können sich ändern – maßgeblich sind die verlinkten Anbieterseiten. Keine Rechtsberatung.</p>
-<p><a href="{r}methodik/">Methodik</a> · <a href="{r}tool-eintragen/">Tool eintragen</a> · <a href="{r}#newsletter">Newsletter</a> · <a href="{r}impressum/">Impressum</a> · <a href="{r}datenschutz/">Datenschutz</a> · <a href="https://tally.so/r/VpprVl" rel="noopener" target="_blank">Kontakt</a></p>
+<p><a href="{r}ratgeber/">Ratgeber</a> · <a href="{r}methodik/">Methodik</a> · <a href="{r}tool-eintragen/">Tool eintragen</a> · <a href="{r}#newsletter">Newsletter</a> · <a href="{r}impressum/">Impressum</a> · <a href="{r}datenschutz/">Datenschutz</a> · <a href="https://tally.so/r/VpprVl" rel="noopener" target="_blank">Kontakt</a></p>
 <p class="muted">Datenstand: {de_date(STAND)}</p></div></footer>
 <script src="{r}assets/app.js" defer></script>
 <script data-goatcounter="https://ki-eu-verzeichnis.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script></body></html>"""
@@ -138,6 +139,7 @@ def build():
 <p class="lead">{len(TOOLS)} KI-Tools, deren Anbieter Hosting in Deutschland oder der EU angeben – mit Quelle und Prüfdatum zu jeder Angabe.</p>
 <p class="muted">{e(D['hinweis'])} Stand: {de_date(STAND)}.</p></section>
 <section><h2>Kategorien</h2><div class="tiles">{tiles}</div></section>
+{guides.home_section(TOOLS)}
 <section><h2>Alle Tools</h2>
 <div class="filters"><input id="q" type="search" placeholder="Suchen, z. B. Transkription, Frankfurt, AVV …" aria-label="Tools durchsuchen">
 <select id="cat" aria-label="Kategorie"><option value="">Alle Kategorien</option>{opts}</select>
@@ -188,6 +190,7 @@ def build():
                "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": t["beschreibung"],
                "dateModified": t["geprueft"]}]
         page(p, f"{t['name']}: Hosting, AVV & Preise laut Anbieter – {SITE}", f"{t['name']} – {t['beschreibung']} Hosting laut Anbieter: {t['hosting_region']}. Quellen und Prüfdatum {de_date(t['geprueft'])}.", body, 2, ld)
+    urls += guides.build_guides(page, TOOLS, CATS, D, e, badge, unk, de_date, BASE, crumbs)
     # Tool eintragen
     catopts = "".join(f'<option>{e(c["name"])}</option>' for c in D["kategorien"])
     body = f"""<h1>Tool eintragen</h1><p class="lead">Sie bieten ein KI-Tool mit Hosting in Deutschland oder der EU an? Schlagen Sie es zur Aufnahme vor.</p>
