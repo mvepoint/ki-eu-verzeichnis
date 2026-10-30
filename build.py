@@ -55,7 +55,7 @@ def table(tools, r, show_cat=True):
     head = "<th>Tool</th>" + ("<th>Kategorie</th>" if show_cat else "") + "<th>Hosting laut Anbieter</th><th>AVV/DPA laut Anbieter</th><th>Preis-Hinweis</th>"
     return f'<div class="tablewrap"><table class="tools"><thead><tr>{head}</tr></thead><tbody>{"".join(rows)}</tbody></table></div>'
 
-KIT_FORM_ID = "KIT_FORM_ID_TBD"  # numerische Kit-Formular-ID des KI-EU-Formulars (noch anzulegen)
+KIT_FORM_ID = "10119130"  # Kit-Formular KI-EU (Konto H2-Radar), Double-Opt-In
 NEWSLETTER = """<section id="newsletter" class="box nl"><h2>Wöchentlich: neue EU-KI-Tools für KMU</h2>
 <p>Jeden Donnerstag die neu aufgenommenen und geänderten Einträge – kurz, mit Quellen.</p>
 <form class="nlform" action="https://app.kit.com/forms/""" + KIT_FORM_ID + """/subscriptions" method="post"><label for="nl-mail" class="sr">E-Mail</label>
